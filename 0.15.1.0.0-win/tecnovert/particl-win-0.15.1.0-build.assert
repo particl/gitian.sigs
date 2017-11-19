@@ -1,16 +1,16 @@
 --- !omap
 - out_manifest: |
-    f6bf39d3eb39a3aa6af8c8ff47918364d57db4475aa64d50bcd8ddd2e0746454  particl-0.15.1.0-win-unsigned.tar.gz
-    26b10e24ac7273866e62bc6b0a146ea2ad2c756fce6e32e3d9cc5656b2318056  particl-0.15.1.0-win32-debug.zip
-    835900245699d6c6c7e059557cda49e259d696d6a48267c40af5fcd07a91134b  particl-0.15.1.0-win32-setup-unsigned.exe
-    539ad1f04044a8544f251833680e7c7f11ecad84910b57d0fd86c1f1924b91ae  particl-0.15.1.0-win32.zip
-    4aad25363178ea18c17eb614fc0349a2cc0a6e13284c8ff0951631f2f56bd8be  particl-0.15.1.0-win64-debug.zip
-    e675737d5945183aced7ec5ef65f1ff58e8ce373a74c6f45bae1d59f92b7a205  particl-0.15.1.0-win64-setup-unsigned.exe
-    004d8ae050c04750dfbcf172ac87f00a7c561d29e32526806197b78b22c340c8  particl-0.15.1.0-win64.zip
-    c5f95aca7eb8529e915038474be207c098a5109f5e5f677284c464d4423f0fcb  src/particl-0.15.1.0.tar.gz
+    b23caa5ce1156a5dfc9e3aeedf3c149fe3544b5abcd705b5e1a104e5176ac01b  particl-0.15.1.0-win-unsigned.tar.gz
+    93f40d275163d51030e9ba1cecdf1e63337a562c64371dcf423a250be03f6a47  particl-0.15.1.0-win32-debug.zip
+    032b8d74d68025a7040aa51c7d96cab9c02a3a0711723601f84ed566a4397c87  particl-0.15.1.0-win32-setup-unsigned.exe
+    82e856eb823fbba56941e9ccd220aa8e8ee088d040b688f6e44db2c5967000cb  particl-0.15.1.0-win32.zip
+    719d179755d84ec773c7e663547b1e3648c28608db4273a11f3fa9b989fad77a  particl-0.15.1.0-win64-debug.zip
+    f5de088305cdddfaf118410c2804de0cb48abe3317a9769855ae2c2c02376eac  particl-0.15.1.0-win64-setup-unsigned.exe
+    a3a8e36c2c824be8c1ee68fc8070b89c5684d2bc95b6b7f402c69b11c802acfa  particl-0.15.1.0-win64.zip
+    d7bc08cba08acd32913c76eba37bc0f47b3263ec1a506496c5b39bb722a0875e  src/particl-0.15.1.0.tar.gz
 - in_manifest: |-
     0df93d0948467dc7018874b79ec7123ce41703d205efad2c088e09b1bcfb1bbd  particl-win-0.15.1.0-desc.yml
-    git:99f320785ebd5727b1ac0ed4bb9518678a4aa443 particl-core
+    git:268d97cfebb6d4b8ab6166d5bd96275e6d97fd27 particl-core
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -666,7 +666,7 @@
     cdff17c7cb51ee3a8497f18fc5378bcd86908d0232206c244643318f8f267191  x86_64-w64-mingw32/zeromq/zeromq-4.1.5-2a646752ec7.tar.gz.hash
     df36a837934c4c2350840a35f70381037c66b2ca98f565532d805921b59b6ce7  x86_64-w64-mingw32/zlib/zlib-1.2.11-90861196018.tar.gz
     3c2cb1e1e45d4e94ef45c20a62e92fa96fa3ef4aaa9edaac3c7525973045a708  x86_64-w64-mingw32/zlib/zlib-1.2.11-90861196018.tar.gz.hash
-- release: 0.15.1.0.0-win
+- release: 0.15.1.0.1-win
 - name: particl-win-0.15.1.0
 - type: build
 - optionals: 

@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    27b64ae2f44218b9dba7a19f10bc0f8b5b5dbddb2ffdb547bd50cda4e2cb6994  particl-0.15.1.0-osx-unsigned.dmg
-    c883dedd0e110f27ea2f42905e215c0cc6b8d48e5387cf3a7bbca21fdfc9322f  particl-0.15.1.0-osx-unsigned.tar.gz
-    b05c67e6c00ce74f46593b25dcd03fb47e8158f9b0418aacb5843b65f666e626  particl-0.15.1.0-osx64.tar.gz
-    c5f95aca7eb8529e915038474be207c098a5109f5e5f677284c464d4423f0fcb  src/particl-0.15.1.0.tar.gz
+    ce59e8512adab552ecec0eeb5be2bb67f8f54460d6781b0026ae623e5b2b1612  particl-0.15.1.0-osx-unsigned.dmg
+    a63c1d26a22eeb92e60c0b7aaf20362398cc8cad773e610164535b7d3da501c8  particl-0.15.1.0-osx-unsigned.tar.gz
+    f8398efc43f0fdbd7a5b8398ad985bcd7597197710326fe6c5f54d3b2eda570b  particl-0.15.1.0-osx64.tar.gz
+    d7bc08cba08acd32913c76eba37bc0f47b3263ec1a506496c5b39bb722a0875e  src/particl-0.15.1.0.tar.gz
 - in_manifest: |-
     b3665e1846b9a2a1998680019cffd6a952d79c3353a1286b8ba9f51a0f721c36  particl-osx-0.15.1.0-desc.yml
     bec9d089ebf2e2dd59b1a811a38ec78ebd5da18cbbcd6ab39d1e59f64ac5033f  MacOSX10.11.sdk.tar.gz
-    git:99f320785ebd5727b1ac0ed4bb9518678a4aa443 particl-core
+    git:268d97cfebb6d4b8ab6166d5bd96275e6d97fd27 particl-core
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -739,7 +739,7 @@
     44eb1e5655bee4f132065095c13cd8277f6721dfa5f2a18f202dc2dfce2c97ca  x86_64-apple-darwin11/zeromq/zeromq-4.1.5-e64fe21e7fb.tar.gz.hash
     c5fccc5b360537ba784427beb47b2cba337781c11d2cb901c6c2ad323b55cd31  x86_64-apple-darwin11/zlib/zlib-1.2.11-279ee595515.tar.gz
     93c71acc1f99d3d3c230b5fbdba3fac5b43848868b1b5fb27e06aefa8a047694  x86_64-apple-darwin11/zlib/zlib-1.2.11-279ee595515.tar.gz.hash
-- release: 0.15.1.0.0-osx
+- release: 0.15.1.0.1-osx
 - name: particl-osx-0.15.1.0
 - type: build
 - optionals: 

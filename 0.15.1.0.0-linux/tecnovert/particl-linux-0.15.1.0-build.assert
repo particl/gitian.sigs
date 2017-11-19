@@ -1,17 +1,17 @@
 --- !omap
 - out_manifest: |
-    46b9829c9aa7dba69b2aedfcbf4a4067c4356833ecb72241118473d41e3d9676  particl-0.15.1.0-aarch64-linux-gnu-debug.tar.gz
-    fdcf898ea822ef67d39e2fc5bd3e080bc5cff5287f1548807280674804c0b02a  particl-0.15.1.0-aarch64-linux-gnu.tar.gz
-    2fba13fb990ea3d79df00216c24dbf46a6a3250bbc13c384c351eb166cd187a4  particl-0.15.1.0-arm-linux-gnueabihf-debug.tar.gz
-    5ed8431453df6b900b54e07c4d0c3ef4d7bdd53986b0a15d54b7919ed5dc20c0  particl-0.15.1.0-arm-linux-gnueabihf.tar.gz
-    06f397b428e954a7bb33c6fc91d1f3851b324345bd32ce3f888c9cc138d487b1  particl-0.15.1.0-i686-pc-linux-gnu-debug.tar.gz
-    558a154afdc8741f4e82236fa963d40d5c0d3825c80d41c9a75e540885fb4bb4  particl-0.15.1.0-i686-pc-linux-gnu.tar.gz
-    b777e378fce4cc9ee7588cffa62a4f1d3dcd8a1d597df3de4ca1a366a5a36f38  particl-0.15.1.0-x86_64-linux-gnu-debug.tar.gz
-    390e9c3ea8af3ea47482841e7b51d6bdafe4d70acb704be4d259e10e597ce546  particl-0.15.1.0-x86_64-linux-gnu.tar.gz
-    c5f95aca7eb8529e915038474be207c098a5109f5e5f677284c464d4423f0fcb  src/particl-0.15.1.0.tar.gz
+    ecc82e4aa1ab4fef1a2074c2a7452ba71275fc2085fce379386003391157d138  particl-0.15.1.0-aarch64-linux-gnu-debug.tar.gz
+    780a34244c901fc623e6f3b4041f4a2d2ad29dd6882230a2106035d0f9defdfa  particl-0.15.1.0-aarch64-linux-gnu.tar.gz
+    854d9dc6382dd154a89f33adbd4ad637b88b9567f5a943e064d8a731f9491d2f  particl-0.15.1.0-arm-linux-gnueabihf-debug.tar.gz
+    0855d426026dd4bfff67727f798f64574e62255ada1b87a1d46b465ce0118010  particl-0.15.1.0-arm-linux-gnueabihf.tar.gz
+    5e6b1299393724d7b9864926946409852aef2e8ccc71a7e2d1574335ace07444  particl-0.15.1.0-i686-pc-linux-gnu-debug.tar.gz
+    371c40c32eb8e8f62c038d6636e91253da2f5579de97989c457fbab6de4842de  particl-0.15.1.0-i686-pc-linux-gnu.tar.gz
+    038507305e404ecb11e76be59519aaf9ca22bc0e62414d2bcbd0020020420a9a  particl-0.15.1.0-x86_64-linux-gnu-debug.tar.gz
+    06d570f6da0e536dd2b79d82cd0f8fc1db8cc02be97ad2a4359504600ccfd72a  particl-0.15.1.0-x86_64-linux-gnu.tar.gz
+    d7bc08cba08acd32913c76eba37bc0f47b3263ec1a506496c5b39bb722a0875e  src/particl-0.15.1.0.tar.gz
 - in_manifest: |-
     ff4182132a1e73627499755cf0387a1a0aef954856ca8420c68bd6d3068bdc23  particl-linux-0.15.1.0-desc.yml
-    git:99f320785ebd5727b1ac0ed4bb9518678a4aa443 particl-core
+    git:268d97cfebb6d4b8ab6166d5bd96275e6d97fd27 particl-core
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -743,7 +743,7 @@
     cff03dea182fd069055cbb43cec9ac5b6b89a763c2c40d656cb4b00a0bf4a397  x86_64-linux-gnu/zeromq/zeromq-4.1.5-3215d4ba6a7.tar.gz.hash
     f54b6249de0de20fd7a20aa0146c8a2e63150a9d51035d2ce3561155c3738995  x86_64-linux-gnu/zlib/zlib-1.2.11-986f5af670d.tar.gz
     35d68bfb5f0411c4efbd3c3fdbe352a0862a2db9be25b940019eb4dcef87404b  x86_64-linux-gnu/zlib/zlib-1.2.11-986f5af670d.tar.gz.hash
-- release: 0.15.1.0.0-linux
+- release: 0.15.1.0.1-linux
 - name: particl-linux-0.15.1.0
 - type: build
 - optionals: 
