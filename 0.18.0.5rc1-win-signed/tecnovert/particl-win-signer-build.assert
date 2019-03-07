@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    edf90b2210496470afcf21bbaffb5851b37944be80a0f3a6ac28869d4384d0f7  particl-0.18.0.5-win32-setup.exe
-    609f3785638e9c75d4068a0845c418bbdb55848da09b4b7d3b7ccde0cf1c1ec9  particl-0.18.0.5-win64-setup.exe
+    62feebea905f3b3452fb99776148e21ccbcdf16350f69f050e140f1075254c2e  particl-0.18.0.5-win32-setup.exe
+    3743a7e7c2f38848940aeaeb5da236bb5454dc83de99a9528ffa97ee0c179674  particl-0.18.0.5-win64-setup.exe
 - in_manifest: |-
     42e4b056d336904966ad1921ca53f53c758e368fd64287e39ae139d276c9939f  particl-win-signer-desc.yml
     f9a8cdb38b9c309326764ebc937cba1523a3a751a7ab05df3ecc99d18ae466c9  osslsigncode-1.7.1.tar.gz
     a8c4e9cafba922f89de0df1f2152e7be286aba73f78505169bc351a7938dd911  osslsigncode-Backports-to-1.7.1.patch
-    2840249f9791d9138b7189fc9491e30e166510d5685aeb5d8333f6f65b8bfc02  particl-win-unsigned.tar.gz
-    git:5f297112847f3c7f189a94292915578477923a1f signature
+    555d47a7679de89da2abaa0373a5792470af2f83b91766afb01d1108f8028fe9  particl-win-unsigned.tar.gz
+    git:b31afe5c9559d48a68ba77dc053eb71755ecdd02 signature
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -34,6 +34,7 @@
       ac8da1df654f8a43a9a82eb67d257dd903db075f078814cac3a30d5deeef4bf7  bsdutils_1%3a2.31.1-0.4ubuntu3.3_amd64.deb
       842bf6a7fbe2b179185ebfa3032771972a4f18405c398a792759f1a98b419a85  bsdutils_1%3a2.31.1-0.4ubuntu3_amd64.deb
       bb2ac7aae21544446f45e200aacb961f0dcc42c8caacdc8da37d392b222abfa0  build-essential_12.4ubuntu1_amd64.deb
+      dc5fb08a31210901d047b6af208ebde915ea09628ff36fea93ce0837d887fb2e  busybox-initramfs_1%3a1.27.2-2ubuntu3.1_amd64.deb
       48c4216f5494e5edf7b58d1fb39be8ff47525554926f848ea5a1e3325e2d3e65  busybox-initramfs_1%3a1.27.2-2ubuntu3_amd64.deb
       69a037ca02b43dcbb578cfd29a2d703ed55771cc68e681c5f67343b85e3fa244  bzip2_1.0.6-8.1_amd64.deb
       195ffe05ae7d060146f890b1db225f5e8c3a8c505ffbea1fba30a520a1cd58d8  ca-certificates_20180409_all.deb
@@ -257,6 +258,7 @@
       d8cf39755d6d1da57a4a191eac46e246ee1f4f5ecfe0ccef5ac0c4d219b456c3  libhogweed4_3.4-1_amd64.deb
       99b3774d1df23ca1340352bbf5b23f50238b4022ca165b271ea1e94a68e257a3  libhx509-5-heimdal_7.5.0+dfsg-1_amd64.deb
       7a2f29ea19f2a14007fd84f25eb88db4fb3ca43bdb07fdb681329d2b5daca500  libicu60_60.2-3ubuntu3_amd64.deb
+      fc23712a9ffd26dcea7ed93f5c2f59a96a249e407dcb93fb6977e681c4b1af9c  libidn11_1.33-2.1ubuntu1.1_amd64.deb
       f453173ab7715b33b42200724630384ebfe79c0b2dc74735fd35549fc11b6532  libidn11_1.33-2.1ubuntu1_amd64.deb
       7c1fb7783db47e5eb7ef5ae0946bb9bf667ffd7b26e5951177981310f449a4ca  libidn2-0_2.0.4-1.1build2_amd64.deb
       583990ffb2f9e0ea825d4ce3a7c6db0af4f3afc544114c5b6769d95ff5e0b310  libip4tc0_1.6.1-2ubuntu2_amd64.deb
@@ -503,6 +505,7 @@
       9d7ebb8667b2a9fefe2d0202349ca58216f515a2c0d30d8561557d5a881d9f31  python2.7_2.7.15~rc1-1ubuntu0.1_amd64.deb
       47f7bb0fe28baabb97982388bed7e8ebe4a9a59caa3c0184d47c52711f61f2e0  python3-dbus_1.2.6-1_amd64.deb
       f12891060d6851adc12b31147bd9b6379dc8d36ff2f9ebda383d1c2eebebad8f  python3-gi_3.26.1-2_amd64.deb
+      3e7771eb3acb2e8b98f34f839f046e0c3382c3b115c6f4afc991bf801f0531ed  python3-gi_3.26.1-2ubuntu1_amd64.deb
       8a0d89bb2a9d630927444948391e3fe921c2ac4f4e63934155af80436d0995fa  python3-minimal_3.6.5-3_amd64.deb
       5a535025423b658181d50e8af9f376aae6fd85efaa6931ae148554788912774d  python3-minimal_3.6.7-1~18.04_amd64.deb
       7a0e008e7407096d52a177ed39d3f8e9e234105e0d8685efa97976f50412ccd2  python3-netifaces_0.10.4-0.1build4_amd64.deb
